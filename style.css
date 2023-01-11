@@ -127,3 +127,17 @@ nav ul li a{
     color: #fff;
     font-size: 17px;
 }
+
+.content{
+    text-align: 160px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.cntent a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid @fff;
+}
