@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.hero{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 200vh;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+.strengthxt{
+    position: relative;
+    max-width: 700px;
+    max-height: 500px;
+    top: 200px;
+    left: 380px;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.weaknesstxt{
+    position: relative;
+    max-width: 700px;
+    max-height: 500px;
+    top: 300px;
+    left: 380px;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+}
